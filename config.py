@@ -1,0 +1,13 @@
+TOKIN = '7022730473:AAHENE6qXj5V4OPczQyZdo8-KheyO-2mNOI'
+DB_NAME = 'YOUTUBE'
+
+DB_PASSWORD = '12345678'
+
+DB_HOST = 'localhost'
+DB_USERS = 'postgres'
+
+
+
+
+
+# ADMIN = ['']
