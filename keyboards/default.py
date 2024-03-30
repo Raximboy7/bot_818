@@ -8,6 +8,12 @@ def register_btn():
     return markup
 
 def sent_contact():
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+    markup.add(KeyboardButton("Raqamni jo'natish 📱", request_contact=True))
+    return markup
+
+
+def main_menyu():
     markup  = ReplyKeyboardMarkup(resize_keyboard=True)
     markup.add(
         KeyboardButton('Asosiy Menyu 🏠'),
